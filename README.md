@@ -1,6 +1,6 @@
-> It was forked from [uslug](https://github.com/jeremys/uslug).
-
 # fast-uslug [![CircleCI](https://circleci.com/gh/shelfio/fast-uslug/tree/master.svg?style=svg)](https://circleci.com/gh/shelfio/fast-uslug/tree/master)![](https://img.shields.io/badge/code_style-prettier-ff69b4.svg)
+
+> It was forked from [uslug](https://github.com/jeremys/uslug).
 
 > **6x** faster than [uslug](https://github.com/jeremys/uslug).
 

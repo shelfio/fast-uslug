@@ -1,6 +1,8 @@
+> It was forked from [uslug](https://github.com/jeremys/uslug).
+
 # fast-uslug [![CircleCI](https://circleci.com/gh/shelfio/fast-uslug/tree/master.svg?style=svg)](https://circleci.com/gh/shelfio/fast-uslug/tree/master)![](https://img.shields.io/badge/code_style-prettier-ff69b4.svg)
 
-> It's a fork of [uslug](https://github.com/jeremys/uslug). **6x** faster than uslug.
+> **6x** faster than [uslug](https://github.com/jeremys/uslug).
 
 Permissive slug generator that works with unicode.
 We keep only characters from the categories Letter, Number and Separator (see [Unicode Categories](http://www.unicode.org/versions/Unicode6.0.0/ch04.pdf))

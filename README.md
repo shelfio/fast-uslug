@@ -2,7 +2,7 @@
 
 > It was forked from [uslug](https://github.com/jeremys/uslug).
 
-> **6x** faster than [uslug](https://github.com/jeremys/uslug).
+> **30x** faster than [uslug](https://github.com/jeremys/uslug).
 
 Permissive slug generator that works with unicode.
 We keep only characters from the categories Letter, Number and Separator (see [Unicode Categories](http://www.unicode.org/versions/Unicode6.0.0/ch04.pdf))

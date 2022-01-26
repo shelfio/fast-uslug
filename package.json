@@ -1,7 +1,7 @@
 {
   "name": "@shelf/fast-uslug",
   "version": "0.0.2",
-  "description": "fast-uslug",
+  "description": "A 30x faster version of the \"uslug\" package",
   "license": "MIT",
   "author": {
     "name": "Vlad Holubiev",

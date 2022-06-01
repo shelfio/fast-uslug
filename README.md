@@ -62,6 +62,12 @@ Generate a slug for the string passed.
   - lower: a Boolean to force to lower case the slug. Default: true.
   - spaces: a Boolean to allow spaces. Default: false.
 
+## See Also
+
+- [fast-normalize-spaces](https://github.com/shelfio/fast-normalize-spaces)
+- [fast-natural-order-by](https://github.com/shelfio/fast-natural-order-by)
+- [fast-chunk-string](https://github.com/shelfio/fast-chunk-string)
+
 ## Publish
 
 ```sh

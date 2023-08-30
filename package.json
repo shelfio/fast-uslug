@@ -48,7 +48,7 @@
     "@shelf/tsconfig": "0.0.11",
     "@types/jest": "29.5.4",
     "@types/node": "16",
-    "@types/uslug": "1.0.1",
+    "@types/uslug": "1.0.2",
     "benny": "3.7.1",
     "eslint": "8.48.0",
     "fast-lorem-ipsum": "1.2.0",

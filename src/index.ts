@@ -6,8 +6,8 @@ import {
   severalSpacesOrHyphensRegex,
   severalSpacesRegex,
   spaceSymbol,
-} from './consts';
-import {getRawSlug} from './helpers';
+} from './consts.js';
+import {getRawSlug} from './helpers.js';
 
 type OptionParams = {lower?: boolean; spaces?: boolean; allowedChars?: Set<string>};
 

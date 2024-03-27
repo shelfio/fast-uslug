@@ -1,4 +1,4 @@
-import {LMN, Z} from './codes';
+import {LMN, Z} from './codes/index.js';
 import {
   chineseL,
   chineseR,
@@ -12,7 +12,7 @@ import {
   lmnSymbol,
   spaceSymbol,
   zSymbol,
-} from './consts';
+} from './consts.js';
 
 export const getRawSlug = (chars: string, allowedChars: Set<string>): string => {
   const rawSlug = [];

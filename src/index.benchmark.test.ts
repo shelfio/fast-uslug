@@ -1,6 +1,7 @@
+// eslint-disable-next-line no-restricted-imports
 import uslug from 'uslug';
-import mocks from './mocks';
-import {fastUslug} from './index';
+import mocks from './mocks.js';
+import {fastUslug} from './index.js';
 
 const runTimes = 10;
 const desirableRunTimes = 1000;
@@ -23,6 +24,7 @@ describe.skip('old-new-uslug-benchmark', () => {
         sumFaster += spentTimeOld / spentTimeNew;
       });
 
+      // eslint-disable-next-line require-await
       it.concurrent('should old slugify', async () => {
         const startOld = +new Date();
         for (const test of desirableTests) {
@@ -32,6 +34,7 @@ describe.skip('old-new-uslug-benchmark', () => {
         spentTimeOld = endOld - startOld;
       });
 
+      // eslint-disable-next-line require-await
       it.concurrent('should new slugify', async () => {
         const startNew = +new Date();
         for (const test of desirableTests) {

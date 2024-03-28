@@ -1,5 +1,5 @@
-import mocks from './mocks';
-import {fastUslug} from './index';
+import mocks from './mocks.js';
+import {fastUslug} from './index.js';
 
 it('should return slugified strings', () => {
   for (const mock of mocks) {

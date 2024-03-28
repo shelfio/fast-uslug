@@ -1,7 +1,7 @@
 import benny from 'benny';
 // @ts-ignore
 import fLI from 'fast-lorem-ipsum';
-// @ts-ignore
+// eslint-disable-next-line no-restricted-imports
 import uslug from 'uslug';
 import {fastUslug} from './lib';
 

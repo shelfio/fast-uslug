@@ -1,2 +1,2 @@
-export * from './LMN';
-export * from './Z';
+export * from './LMN.js';
+export * from './Z.js';

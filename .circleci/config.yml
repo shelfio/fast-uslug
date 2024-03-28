@@ -14,7 +14,7 @@ commands:
       - node/install-packages:
           pkg-manager: yarn
           cache-version: v1
-          cache-only-lockfile: true
+          cache-only-lockfile: false
           app-dir: ~/repo
           override-ci-command: >
             npx --yes retry-cli -n 5 -t 3000 --

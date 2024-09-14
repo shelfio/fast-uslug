@@ -43,7 +43,7 @@
     "@shelf/tsconfig": "0.1.0",
     "@swc/core": "1.7.23",
     "@swc/jest": "0.2.36",
-    "@types/jest": "29.5.12",
+    "@types/jest": "29.5.13",
     "@types/node": "16",
     "@types/uslug": "1.0.4",
     "benny": "3.7.1",

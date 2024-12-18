@@ -13,7 +13,7 @@ commands:
     steps:
       - node/install-packages:
           pkg-manager: yarn
-          cache-version: v1
+          cache-version: v2
           cache-only-lockfile: false
           app-dir: ~/repo
           override-ci-command: >

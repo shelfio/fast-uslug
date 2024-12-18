@@ -1,6 +1,6 @@
 {
   "name": "@shelf/fast-uslug",
-  "version": "0.0.2",
+  "version": "1.2.0",
   "description": "A 30x faster version of the \"uslug\" package",
   "license": "MIT",
   "author": {

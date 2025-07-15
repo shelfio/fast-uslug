@@ -2,7 +2,6 @@ import {LMN, Z} from './codes/index.js';
 import {
   chineseL,
   chineseR,
-  emptyString,
   japaneseLL,
   japaneseLR,
   japaneseRL,

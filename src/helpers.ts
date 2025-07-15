@@ -2,7 +2,6 @@ import {LMN, Z} from './codes/index.js';
 import {
   chineseL,
   chineseR,
-  emptyString,
   japaneseLL,
   japaneseLR,
   japaneseRL,
@@ -15,22 +14,22 @@ import {
 } from './consts.js';
 
 export const getRawSlug = (chars: string, allowedChars: Set<string>): string => {
-  const rawSlug = [];
+  let rawSlug = '';
 
   for (const char of chars) {
     const code = char.charCodeAt(0);
 
     if (allowChinese(code) || allowKorean(code)) {
-      rawSlug.push(char);
+      rawSlug += char;
       continue;
     }
 
     if (allowJapanese(code)) {
-      rawSlug.push(spaceSymbol);
+      rawSlug += spaceSymbol;
     }
 
     if (allowedChars.has(char)) {
-      rawSlug.push(char);
+      rawSlug += char;
       continue;
     }
 
@@ -40,10 +39,10 @@ export const getRawSlug = (chars: string, allowedChars: Set<string>): string => 
       continue;
     }
 
-    rawSlug.push(value === lmnSymbol ? char : spaceSymbol);
+    rawSlug += value === lmnSymbol ? char : spaceSymbol;
   }
 
-  return rawSlug.join(emptyString).trim();
+  return rawSlug.trim();
 };
 
 // Allow Common CJK Unified Ideographs

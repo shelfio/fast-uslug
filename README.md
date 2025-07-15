@@ -2,7 +2,7 @@
 
 > It was forked from [uslug](https://github.com/jeremys/uslug).
 
-> **17x** faster than [uslug](https://github.com/jeremys/uslug).
+> **20x** faster than [uslug](https://github.com/jeremys/uslug).
 
 Permissive slug generator that works with unicode.
 We keep only characters from the categories Letter, Number and Separator (see [Unicode Categories](http://www.unicode.org/versions/Unicode6.0.0/ch04.pdf))
@@ -42,9 +42,9 @@ fastUslug('Y-U|NO', {allowedChars: '|'}); // 'yu|no'
 
 | [uslug](https://github.com/jeremys/uslug) | [@shelf/fast-uslug](https://github.com/shelfio/fast-uslug) | Improvement |
 | ----------------------------------------- | ---------------------------------------------------------- | ----------- |
-| 10 words: 16,742 ops/s, ±0.95%           | 10 words: 287,961 ops/s, ±1.19%                           | 17x         |
-| 100 words: 1,606 ops/s, ±0.72%           | 100 words: 25,391 ops/s, ±0.44%                           | 16x         |
-| 1000 words: 161 ops/s, ±0.50%            | 1000 words: 2,405 ops/s, ±0.92%                           | 15x         |
+| 10 words: 16,716 ops/s, ±0.64%           | 10 words: 359,774 ops/s, ±0.36%                           | 22x         |
+| 100 words: 1,558 ops/s, ±0.50%           | 100 words: 31,670 ops/s, ±0.36%                           | 20x         |
+| 1000 words: 156 ops/s, ±0.65%            | 1000 words: 3,124 ops/s, ±0.48%                           | 20x         |
 
 You can run `yarn benchmark` to test on your own.
 

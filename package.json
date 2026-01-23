@@ -47,7 +47,7 @@
     "lint-staged": "15.5.2",
     "prettier": "3.8.1",
     "ts-jest-resolver": "2.0.1",
-    "tsx": "4.20.5",
+    "tsx": "4.21.0",
     "typescript": "5.9.3",
     "uslug": "1.0.4"
   },

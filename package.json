@@ -19,10 +19,10 @@
   "scripts": {
     "benchmark": "tsx benchmark.ts",
     "build": "rm -rf lib/ && tsc",
-    "coverage": "yarn test --coverage",
-    "lint": "yarn lint:ci --fix",
+    "coverage": "pnpm test --coverage",
+    "lint": "pnpm lint:ci --fix",
     "lint:ci": "eslint . --quiet",
-    "prepack": "yarn build",
+    "prepack": "pnpm build",
     "test": "TZ=UTC jest src",
     "type-check": "tsc --noEmit",
     "type-check:watch": "npm run type-check -- --watch"

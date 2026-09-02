@@ -3,6 +3,7 @@
   "version": "1.2.0",
   "description": "A 30x faster version of the \"uslug\" package",
   "license": "MIT",
+  "packageManager": "pnpm@11.18.0",
   "author": {
     "name": "Vlad Holubiev",
     "email": "vlad@shelf.io",

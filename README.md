@@ -42,9 +42,9 @@ fastUslug('Y-U|NO', {allowedChars: '|'}); // 'yu|no'
 
 | [uslug](https://github.com/jeremys/uslug) | [@shelf/fast-uslug](https://github.com/shelfio/fast-uslug) | Improvement |
 | ----------------------------------------- | ---------------------------------------------------------- | ----------- |
-| 10 words: 16,716 ops/s, ±0.64%           | 10 words: 359,774 ops/s, ±0.36%                           | 22x         |
-| 100 words: 1,558 ops/s, ±0.50%           | 100 words: 31,670 ops/s, ±0.36%                           | 20x         |
-| 1000 words: 156 ops/s, ±0.65%            | 1000 words: 3,124 ops/s, ±0.48%                           | 20x         |
+| 10 words: 16,716 ops/s, ±0.64%            | 10 words: 359,774 ops/s, ±0.36%                            | 22x         |
+| 100 words: 1,558 ops/s, ±0.50%            | 100 words: 31,670 ops/s, ±0.36%                            | 20x         |
+| 1000 words: 156 ops/s, ±0.65%             | 1000 words: 3,124 ops/s, ±0.48%                            | 20x         |
 
 You can run `pnpm benchmark` to test on your own.
 

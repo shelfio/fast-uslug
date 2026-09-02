@@ -14,7 +14,7 @@ Note that this slug generator is different from [node-slug](https://github.com/d
 ## Install
 
 ```
-$ yarn add @shelf/fast-uslug
+$ pnpm add @shelf/fast-uslug
 ```
 
 ## Usage
@@ -46,7 +46,7 @@ fastUslug('Y-U|NO', {allowedChars: '|'}); // 'yu|no'
 | 100 words: 1,558 ops/s, ±0.50%           | 100 words: 31,670 ops/s, ±0.36%                           | 20x         |
 | 1000 words: 156 ops/s, ±0.65%            | 1000 words: 3,124 ops/s, ±0.48%                           | 20x         |
 
-You can run `yarn benchmark` to test on your own.
+You can run `pnpm benchmark` to test on your own.
 
 ## Options
 
@@ -72,8 +72,8 @@ Generate a slug for the string passed.
 
 ```sh
 $ git checkout master
-$ yarn version
-$ yarn publish
+$ pnpm version
+$ pnpm publish
 $ git push origin master --tags
 ```
 

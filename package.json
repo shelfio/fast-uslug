@@ -3,6 +3,7 @@
   "version": "1.2.0",
   "description": "A 30x faster version of the \"uslug\" package",
   "license": "MIT",
+  "packageManager": "pnpm@11.18.0",
   "author": {
     "name": "Vlad Holubiev",
     "email": "vlad@shelf.io",
@@ -19,10 +20,10 @@
   "scripts": {
     "benchmark": "tsx benchmark.ts",
     "build": "rm -rf lib/ && tsc",
-    "coverage": "yarn test --coverage",
-    "lint": "yarn lint:ci --fix",
+    "coverage": "pnpm test --coverage",
+    "lint": "pnpm lint:ci --fix",
     "lint:ci": "eslint . --quiet",
-    "prepack": "yarn build",
+    "prepack": "pnpm build",
     "test": "TZ=UTC jest src",
     "type-check": "tsc --noEmit",
     "type-check:watch": "npm run type-check -- --watch"

@@ -48,6 +48,7 @@
     "@types/jest": "30.0.0",
     "@types/node": "20.17.10",
     "@types/uslug": "1.0.4",
+    "@typescript/native": "npm:typescript@7.0.2",
     "benny": "3.7.1",
     "eslint": "10.8.0",
     "fast-lorem-ipsum": "1.2.0",
@@ -59,7 +60,7 @@
     "oxfmt": "0.64.0",
     "ts-jest-resolver": "2.0.1",
     "tsx": "4.20.5",
-    "typescript": "6.0.3",
+    "typescript": "npm:@typescript/typescript6@6.0.2",
     "uslug": "1.0.4"
   },
   "engines": {
